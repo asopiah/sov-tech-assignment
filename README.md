@@ -36,7 +36,7 @@ This repository is a parent repository that contains two submodules, starwars-gr
 
       ```agsl
       npm install --prefix starwars-service-client
-      ng build
+      ng build --prefix starwars-service-client
       ```
    4. Once the above steps are completed successfully, navigate to the root directory of the parent repository and run the following command to start the application:
 
