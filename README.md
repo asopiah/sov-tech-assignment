@@ -26,7 +26,10 @@ This repository is a parent repository that contains two submodules, starwars-gr
 
       ```mvn clean install```
    
-      ##### NB: you can run the command directly without navigating to the directory using ``mvn clean install -f starwars-graphql-service`
+      ##### NB: you can run the command directly without navigating to the directory using below
+      ```mvn clean install -f starwars-graphql-service```
+   
+
    3. Navigate to the `starwars-service-client` directory and run the command below to build the front end service:
       ```agsl
       npm install
@@ -36,7 +39,7 @@ This repository is a parent repository that contains two submodules, starwars-gr
 
       ```agsl
       npm install --prefix starwars-service-client
-      ng build --prefix starwars-service-client
+      npm run build --prefix starwars-service-client
       ```
    4. Once the above steps are completed successfully, navigate to the root directory of the parent repository and run the following command to start the application:
 
@@ -64,6 +67,8 @@ This repository is a parent repository that contains two submodules, starwars-gr
    4. Run `ng serve`
    5. The frontend client is running on [localhost:4200]().
 
+![alt text](https://github.com/asopiah/Images/blob/master/StarwarsServiceClient.gif)
+
 ## Technology Stacks
 Docker-Compose - _use to build and run the whole application_
 
@@ -77,6 +82,9 @@ Docker-Compose - _use to build and run the whole application_
 - Logback
 - Maven
 - Docker
+- Mockito 
+- JUnit5 
+- WireMock
 
 **Frontend**
 - Angular 16
