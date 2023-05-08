@@ -1,0 +1,6 @@
+[submodule "starwars-service-client"]
+	path = starwars-service-client
+	url = git@github.com:asopiah/starwars-service-client.git
+[submodule "starwars-graphql-service"]
+	path = starwars-graphql-service
+	url = git@github.com:asopiah/starwars-graphql-service.git
