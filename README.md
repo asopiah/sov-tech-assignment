@@ -3,8 +3,14 @@
 This repository is a parent repository that contains two submodules, starwars-graphql-service (a backend service) and starwars-service-client (a front end service).
 
 ## Getting Started
+### Prerequisites
+1. Java 17+
+2. Maven
+3. Node
+4. Angular CLI
+5. Docker
 
-## How to  Run
+### How to  Run
 
 
 
@@ -51,14 +57,15 @@ This repository is a parent repository that contains two submodules, starwars-gr
    5. The backend server is running on [localhost:8080]()
    
    **Frontend**
-   6. Install [Node.js and npm](https://www.npmjs.com/get-npm)
-   7. `cd starwars-service-client`.
-   8. Run `npm install`.
-   9. Run `ng serve`
-   10. The frontend client is running on [localhost:4200]().
+
+   1. Install [Node.js and npm](https://www.npmjs.com/get-npm)
+   2. `cd starwars-service-client`.
+   3. Run `npm install`.
+   4. Run `ng serve`
+   5. The frontend client is running on [localhost:4200]().
 
 ## Technology Stacks
-Docker-Compose
+Docker-Compose - _use to build and run the whole application_
 
 **Backend**
 - Java 17
@@ -74,5 +81,5 @@ Docker-Compose
 **Frontend**
 - Angular 16
 - Angular CLI
-- [Clarity Design](https://clarity.design/) as UI
+- [Clarity Design](https://clarity.design/) for UI
 - Docker
