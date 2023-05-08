@@ -1,0 +1,12 @@
+version: '2'
+services:
+  backend:
+    build: starwars-graphql-service/.
+    ports:
+      - "8080:8080"
+  frontend:
+    build: starwars-service-client/.
+    ports:
+      - "4200:4200"
+    depends_on:
+      - backend
